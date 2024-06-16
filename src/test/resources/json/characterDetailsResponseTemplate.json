@@ -1,0 +1,15 @@
+{
+  "id": "{{id}}",
+  "name": "{{name}}",
+  "status": "{{status}}",
+  "species": "{{species}}",
+  "gender": "{{gender}}",
+  "origin": {
+    "name": "{{origin}}"
+  },
+  "location": {
+    "name": "{{location}}"
+  },
+  "image": "{{image}}",
+  "episode": "{{episode}}"
+}
