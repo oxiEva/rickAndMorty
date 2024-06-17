@@ -34,10 +34,18 @@ Features tests:
     mvn test -Dcucumber.filter.tags="@aut-1"
 
 
+Character tests:
+
+    mvn test -Dcucumber.filter.tags="@character"
+
+Character tests:
+
+    mvn test -Dcucumber.filter.tags="@episode"
+   
+
 
 
 📄 Reporting
 ---
 
-Also, I add this plugin [cucumber-reporting](https://github.com/damianszczepanik/cucumber-reporting?tab=readme-ov-file). With it, we can see pretty html reports with charts showing the results. Here there are some examples:
-
+Also, I add this plugin [cucumber-reporting](https://github.com/damianszczepanik/cucumber-reporting?tab=readme-ov-file). With it, we can see pretty html reports with charts showing the results.

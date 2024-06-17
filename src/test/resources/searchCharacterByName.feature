@@ -1,4 +1,4 @@
-@aut-1
+@aut-1 @character
 Feature: Search character by name
 
   Scenario: Successful search by full name

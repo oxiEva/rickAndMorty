@@ -1,4 +1,4 @@
-@aut-2
+@aut-2 @character
 Feature: Viewing Character Details
 
   Scenario Outline: View character details by ID

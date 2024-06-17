@@ -1,4 +1,4 @@
-@aut-9
+@aut-9 @episode
 Feature: Search episode by ID
 
   Scenario: Successful search by episode ID
