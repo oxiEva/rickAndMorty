@@ -1,4 +1,4 @@
-package stepdefs;
+package stepdefs.Character;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
