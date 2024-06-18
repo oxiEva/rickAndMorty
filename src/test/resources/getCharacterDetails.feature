@@ -23,6 +23,7 @@ Feature: Viewing Character Details
     Examples:
       | id   | errorMessage        |
       | 97843| Character not found |
+      | 99843| Character not found |
 #      | 10   | Character not found |
       | -2   | Character not found |
 
