@@ -23,7 +23,9 @@ Feature: Viewing Character Details
     Examples:
       | id   | errorMessage        |
       | 97843| Character not found |
-      | -1   | Character not found |
+      | 99843| Character not found |
+#      | 10   | Character not found |
+      | -2   | Character not found |
 
   Scenario Outline: View character details with invalid ID type
     Given The user has the character string ID "<id>"
