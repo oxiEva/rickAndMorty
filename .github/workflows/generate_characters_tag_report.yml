@@ -1,11 +1,11 @@
+name: Character tagged test
 on:
-  pull_request:
+  push:
     branches:
       - main
-      - 'feature/**'
 
 jobs:
-  run-all-tests:
+  generate-report-characters:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -23,6 +23,9 @@ jobs:
 
       - name: Generate Cucumber Report
         run: mvn verify
+
+      - name: Run Cucumber Tests for Characters
+        run: mvn test -Dcucumber.filter.tags="@character"
 
       - name: Upload Cucumber Report
         uses: actions/upload-artifact@v4
